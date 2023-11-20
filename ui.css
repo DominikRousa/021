@@ -1,0 +1,66 @@
+body{
+	background-color: rgb(83, 83, 255);
+}
+
+.mainContainer {
+    width: auto;
+    height: 30rem;
+    text-align: center;
+    margin: 50px;
+    background-image: url(https://c.wallhere.com/photos/8a/81/nature_landscape_sky_clouds_mountains_snowy_mountain_trees_Ski-1850157.jpg!d);
+    position: relative;
+}
+
+.mainContainerItems button{
+    margin-top: 12rem;
+
+  }
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:5px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.mainContainerItem {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 20rem;
+    background-color: lightgrey;
+	display:inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.mainContainerList {
+	margin-top: 200px;
+	display: flex;
+	text-align: left;
+	justify-content: space-evenly;
+	background-color: white;
+	border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
